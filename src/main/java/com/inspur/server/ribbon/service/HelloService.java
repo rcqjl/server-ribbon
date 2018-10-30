@@ -1,11 +1,13 @@
 package com.inspur.server.ribbon.service;
 
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Service;
 import org.springframework.web.client.RestTemplate;
 
 /**
  * Created by qujianlong on 2018/10/30.
  */
+@Service
 public class HelloService {
 
     @Autowired
